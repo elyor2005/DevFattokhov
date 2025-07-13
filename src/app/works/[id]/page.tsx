@@ -7,7 +7,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
 
-const SingleWork = ({ params: { id } }: { params: { id: string } }) => {
+const SingleWork = async ({ params }: { params: Promise<{ id: string }> }) => {
+  const { id } = await params;
   const work = WORKS.find((item) => item.id === id);
   if (!work) return notFound();
   return (

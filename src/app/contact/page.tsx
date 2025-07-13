@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React, { useState } from "react";
@@ -13,7 +14,6 @@ import {
   CheckCircle,
   LoaderCircle,
   Building,
-  Icon as LucideIcon,
 } from "lucide-react";
 import { toast } from "react-toastify";
 import { cn } from "@/src/utils/cn";
@@ -35,7 +35,7 @@ interface FormValues {
 }
 
 interface FormFieldProps {
-  Icon: LucideIcon;
+  Icon: any;
   name: keyof FormValues;
   type?: string;
   as?: "input" | "textarea";
