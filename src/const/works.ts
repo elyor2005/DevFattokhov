@@ -1,0 +1,226 @@
+export const WORKS = [
+  {
+    id: "work-1",
+    preview: "/assets/works/1/preview.jpg",
+    name: "The Rosa",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/The-Rosa/",
+    client: "The Rosa",
+    year: 2024,
+    description:
+      "I developed a visually captivating and interactive website for The Rosa, a stylish brand concept. This modern landing page combines minimalistic elegance with smooth animations to create an immersive user experience. The design is built around a soft, pastel-themed aesthetic, perfectly aligned with high-end fashion or beauty branding. The site utilizes cutting-edge web technologies such as HTML, CSS, JavaScript,  to deliver seamless transitions and scroll-triggered effects. This project demonstrates my ability to craft elegant, responsive, and animation-rich websites with a strong focus on user experience and visual storytelling.",
+    images: [
+      "/assets/works/1/preview.jpg",
+      "/assets/works/1/1.jpg",
+      "/assets/works/1/2.jpg",
+    ],
+  },
+  {
+    id: "work-2",
+    preview: "/assets/works/2/preview.jpg",
+    name: "Sea Side",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Sea-Side/",
+    client: "Sea Side",
+    year: "2024",
+    description:
+      "I created a vibrant and engaging website called Sea Side, designed to showcase a serene ocean-themed landing page with immersive visuals and motion effects. The site captures the calm and beauty of seaside life through creative layout, color palette, and animation. Built using HTML, CSS, JavaScript  the project features smooth scrolling, parallax effects, and animated elements that respond to user interaction. This project highlights my skills in building aesthetic, responsive, and animation-driven web experiences that emphasize both design and functionality",
+    images: [
+      "/assets/works/2/preview.jpg",
+      "/assets/works/2/1.jpg",
+      "/assets/works/2/2.jpg",
+    ],
+  },
+  {
+    id: "work-3",
+    preview: "/assets/works/3/preview.jpg",
+    name: "Portfolio",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Portfolio-Demo/",
+    client: "By Someone",
+    year: "2024",
+    description:
+      "I developed a sleek and modern Portfolio Demo website to present creative work in a clean and structured format. This responsive, single-page design highlights key sections such as About, Skills, Projects, and Contact, offering a smooth user experience. The website is built using HTML, CSS, and JavaScript, with subtle animations and transitions enhancing the visual appeal. The layout is intuitive and mobile-friendly, demonstrating my ability to create professional personal portfolios that effectively showcase individual branding and technical skills.",
+    images: [
+      "/assets/works/3/preview.jpg",
+      "/assets/works/3/1.jpg",
+      "/assets/works/3/2.jpg",
+    ],
+  },
+  {
+    id: "work-4",
+    preview: "/assets/works/4/preview.jpg",
+    name: "Discord",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Discord-Clone/",
+    client: "By Discord",
+    year: "2024",
+    description:
+      "I built a clean and responsive Discord Clone landing page that closely replicates the modern design and layout of the original Discord homepage. This project demonstrates my ability to recreate real-world UI designs with precision and attention to detail. Developed using HTML, CSS, and JavaScript, the site includes structured sections, hover effects, and a polished user interface. The layout adapts smoothly across devices, showcasing my front-end development skills in responsive design, layout structuring, and brand-style replication.",
+    images: [
+      "/assets/works/4/preview.jpg",
+      "/assets/works/4/1.jpg",
+      "/assets/works/4/2.jpg",
+    ],
+  },
+  {
+    id: "work-5",
+    preview: "/assets/works/5/preview.jpg",
+    name: "Hulu",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Hulu/",
+    client: "By Hulu",
+    year: "2024",
+    description:
+      "I developed a visually accurate Hulu Clone landing page inspired by the official Hulu website. The project focuses on recreating the platform`s modern streaming interface with attention to layout, typography, and design consistency. Built using HTML, CSS, and JavaScript, the page features a responsive grid system, vibrant call-to-action elements, and a sleek dark theme that mirrors Hulu`s branding. This project highlights my ability to clone real-world websites with pixel-perfect design and optimized responsiveness for both desktop and mobile devices.",
+    images: [
+      "/assets/works/5/preview.jpg",
+      "/assets/works/5/1.jpg",
+      "/assets/works/5/2.jpg",
+    ],
+  },
+  {
+    id: "work-6",
+    preview: "/assets/works/6/preview.jpg",
+    name: "BrainWave",
+    type: "Frontend Development",
+    liveUrl: "https://brainwavedemoapp.netlify.app/",
+    client: "By BrainWave",
+    year: "2025",
+    description:
+      "I developed Brainwave, a cutting-edge AI-powered landing page designed to showcase the capabilities of futuristic technology. The site features a bold, modern UI with dynamic animations and clean layout transitions. Built using React.js, Tailwind CSS, and Framer Motion, the project demonstrates advanced front-end skills in component-based architecture, responsive design, and smooth motion effects. The dark theme combined with vibrant gradients and 3D-inspired visuals delivers a sleek, immersive user experience. This project reflects my ability to create high-quality, modern interfaces optimized for performance and engagement.",
+    images: [
+      "/assets/works/6/preview.jpg",
+      "/assets/works/6/1.jpg",
+      "/assets/works/6/2.jpg",
+    ],
+  },
+  {
+    id: "work-7",
+    preview: "/assets/works/7/preview.jpg",
+    name: "Virtual Vision",
+    type: "Frontend Development",
+    liveUrl: "https://virtualvison.netlify.app/",
+    client: "By Virtual Vision",
+    year: "2025",
+    description:
+      "I created Virtual Vision, a futuristic and visually rich landing page for a tech-oriented brand focused on innovation and digital experiences. The design emphasizes modernity through bold typography, gradient backgrounds, and smooth section transitions. Developed using React.js, Tailwind CSS, and Framer Motion, the site showcases advanced animation techniques and responsive design principles. With a clean UI and engaging scroll-based effects, this project demonstrates my expertise in building immersive front-end experiences that align with emerging tech themes and futuristic branding.",
+    images: [
+      "/assets/works/7/preview.jpg",
+      "/assets/works/7/1.jpg",
+      "/assets/works/7/2.jpg",
+    ],
+  },
+  {
+    id: "work-8",
+    preview: "/assets/works/8/preview.jpg",
+    name: "Restaurant ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Restaurant/",
+    client: "By Restaurant",
+    year: "2025",
+    description:
+      "I built a stylish and responsive Restaurant landing page using React.js, showcasing a clean and modern interface tailored for the food and hospitality industry. The website highlights sections like the menu, specials, and reservation details, all presented with smooth navigation and engaging visuals. Styled with CSS and structured with React components, the design ensures scalability and maintainability. This project demonstrates my ability to develop professional, user-centric web applications using modern React practices with a strong emphasis on visual presentation and user experience.",
+    images: [
+      "/assets/works/8/preview.jpg",
+      "/assets/works/8/1.jpg",
+      "/assets/works/8/2.jpg",
+    ],
+  },
+  {
+    id: "work-9",
+    preview: "/assets/works/9/preview.jpg",
+    name: "Redefine ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/redefine/",
+    client: "By Redefine",
+    year: "2025",
+    description:
+      "I developed Redefine, a sleek and futuristic landing page using React.js and Tailwind CSS, designed to showcase high-end branding with a strong visual identity. The interface combines bold typography, clean grid layouts, and a minimalist aesthetic to deliver a premium look and feel. Enhanced with GSAP for smooth, scroll-triggered animations, the site offers a dynamic and immersive user experience. This project highlights my expertise in building responsive, component-based UIs and integrating modern animation libraries to elevate the visual impact of web applications.",
+    images: [
+      "/assets/works/9/preview.jpg",
+      "/assets/works/9/1.jpg",
+      "/assets/works/9/2.jpg",
+    ],
+  },
+  {
+    id: "work-10",
+    preview: "/assets/works/10/preview.jpg",
+    name: "VastuSpaze ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/VastuSpaze/",
+    client: "By VastuSpaze",
+    year: "2025",
+    description:
+      "I developed VastuSpaze, a clean and elegant landing page tailored for interior design and architecture services. Built with HTML, CSS, and JavaScript, the site features a soft, modern color scheme, professional layout, and smooth scroll behavior to create a refined and welcoming user experience. The design emphasizes clarity and structure, making it ideal for showcasing design philosophy, services, and brand identity. This project highlights my ability to create responsive, visually balanced websites that align with the aesthetics and goals of creative service industries.",
+    images: [
+      "/assets/works/10/preview.jpg",
+      "/assets/works/10/1.jpg",
+      "/assets/works/10/2.jpg",
+    ],
+  },
+  {
+    id: "work-11",
+    preview: "/assets/works/11/preview.jpg",
+    name: "Stream Clone ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Stream-clone/",
+    client: "By Stream",
+    year: "2025",
+    description:
+      "I built a visually engaging Stream Clone landing page inspired by modern streaming platforms. Designed using HTML, CSS, and JavaScript, the site replicates the sleek layout and bold visuals typical of popular entertainment services. The dark theme, featured content sections, and responsive grid layout provide an immersive user experience across all devices. This project demonstrates my ability to recreate real-world UI designs with attention to branding, responsiveness, and front-end performance.",
+    images: [
+      "/assets/works/11/preview.jpg",
+      "/assets/works/11/1.jpg",
+      "/assets/works/11/2.jpg",
+    ],
+  },
+  {
+    id: "work-12",
+    preview: "/assets/works/12/preview.jpg",
+    name: "Convoy  ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Web-Clone-convoy/",
+    client: "By Convoy  ",
+    year: "2025",
+    description:
+      "I built a pixel-perfect Convoy Web Clone, replicating the landing page of the logistics and freight technology company Convoy. Developed using HTML, CSS, and JavaScript, the project focuses on recreating the clean layout, professional typography, and structured content sections of the original site. The clone is fully responsive, offering smooth navigation and layout consistency across devices. This project demonstrates my attention to detail and ability to accurately reproduce real-world UIs, making it a strong example of layout replication and front-end development best practices.",
+    images: [
+      "/assets/works/12/preview.jpg",
+      "/assets/works/12/1.jpg",
+      "/assets/works/12/2.jpg",
+    ],
+  },
+  {
+    id: "work-13",
+    preview: "/assets/works/13/preview.jpg",
+    name: "AdCarrot ",
+    type: "Frontend Development",
+    liveUrl: "https://elyor2005.github.io/Add/",
+    client: "By AdCarrot ",
+    year: "2025",
+    description:
+      "I created AdCarrot, a minimalist and modern landing page concept designed to promote a digital product or service with clarity and style. Built using HTML, CSS, and JavaScript, the site features a clean layout, bold headings, and smooth scrolling effects that guide the user through key content sections. The design emphasizes simplicity and focus, making it ideal for startups or promotional campaigns. This project showcases my ability to deliver lightweight, responsive, and visually appealing web experiences that align with strong branding principles.",
+    images: [
+      "/assets/works/13/preview.jpg",
+      "/assets/works/13/1.jpg",
+      "/assets/works/13/2.jpg",
+    ],
+  },
+  {
+    id: "work-14",
+    preview: "/assets/works/14/preview.jpg",
+    name: "DataSince ",
+    type: "Frontend Development",
+    liveUrl: "datasince.netlify.app",
+    client: "By DataSince ",
+    year: "2025",
+    description:
+      "I developed DataSince, a futuristic and tech-focused landing page for a data analytics or AI-driven startup. Built with React.js and Tailwind CSS, the site features a clean, responsive design enhanced by Framer Motion animations for smooth transitions and dynamic user interactions. The layout emphasizes modern typography, vibrant gradients, and clear visual hierarchy to highlight services, features, and brand identity. This project showcases my ability to build highly polished, interactive front-end experiences with modern tools and frameworks, ideal for tech, SaaS, and innovation-driven industries.",
+    images: [
+      "/assets/works/14/preview.jpg",
+      "/assets/works/14/1.jpg",
+      "/assets/works/14/2.jpg",
+    ],
+  },
+];
