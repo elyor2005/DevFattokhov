@@ -1,15 +1,3 @@
-// import axios from "axios";
-
-// export const SendMessage = async (message: string) => {
-//   await axios.post(
-//     `https://api.telegram.org/bot5531837620:AAHz8QfPoa4TVgvlXxSMm0y7cO-J0luSgXE/sendMessage`,
-//     {
-//       chat_id: -1002386228643,
-//       text: message,
-//       parse_mode: "HTML",
-//     }
-//   );
-// };
 import axios from "axios";
 
 export const SendMessage = async (message: string) => {
@@ -25,11 +13,15 @@ export const SendMessage = async (message: string) => {
 
     console.log("✅ Message sent:", response.data);
     return response.data;
-  } catch (error: any) {
-    console.error(
-      "❌ Failed to send Telegram message:",
-      error.response?.data || error.message
-    );
+  } catch (error: unknown) {
+    if (axios.isAxiosError(error)) {
+      console.error(
+        "❌ Failed to send Telegram message:",
+        error.response?.data || error.message
+      );
+    } else {
+      console.error("❌ Unknown error:", error);
+    }
     throw error;
   }
 };
