@@ -71,7 +71,7 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <ul
             className={cn(
-              " inset-0  flex flex-col items-center justify-center gap-6 bg-black-100 backdrop-blur-[8px] md:hidden",
+              "absolute top-full left-0 w-full flex flex-col items-center gap-6 bg-black-100 backdrop-blur-[8px] md:hidden",
               hasScrolled && "bg-black-100 backdrop-blur-[8px]"
             )}
           >
