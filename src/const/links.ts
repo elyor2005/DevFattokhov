@@ -30,6 +30,6 @@ export const SOCIAL_LINKS: NavLink[] = [
   },
   {
     name: "Upwork",
-    link: "https://www.upwork.com/freelancers/~yourprofile",
+    link: "https://www.upwork.com/freelancers/~0144ff96e4e6d55c95?companyReference=1941378937770646795&mp_source=share",
   },
 ];

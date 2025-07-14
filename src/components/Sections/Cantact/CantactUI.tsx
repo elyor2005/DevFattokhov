@@ -18,7 +18,10 @@ export const socialLinks = [
   { icon: Twitter, href: "https://twitter.com" },
   { icon: Linkedin, href: "https://linkedin.com" },
   { icon: Instagram, href: "https://www.instagram.com/__abdufattokhov__/" },
-  { icon: FaUpwork, href: "" },
+  {
+    icon: FaUpwork,
+    href: "https://www.upwork.com/freelancers/~0144ff96e4e6d55c95?companyReference=1941378937770646795&mp_source=share",
+  },
 ];
 // Clip Path Constants
 const NO_CLIP = "polygon(0 0, 100% 0, 100% 100%, 0% 100%)";
