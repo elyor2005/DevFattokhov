@@ -29,7 +29,7 @@ const Navbar = () => {
     <header
       className={cn(
         "fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4 ",
-        hasScrolled && "py-2 bg-black-100 backdrop-blur-[8px] scale-90"
+        hasScrolled && "py-2 bg-black-100 backdrop-blur-[8px] scale-90 border rounded-2xl"
       )}
     >
       <Container>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <ul
             className={cn(
               "absolute top-full left-0 w-full flex flex-col items-center gap-6 bg-black-100 backdrop-blur-[8px] md:hidden",
-              hasScrolled && "bg-black-100 backdrop-blur-[8px]"
+              hasScrolled && "bg-black-100 backdrop-blur-[8px] border rounded-2xl"
             )}
           >
             {NAV_LINKS.map((item) => (
