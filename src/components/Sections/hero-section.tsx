@@ -89,7 +89,7 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom animation */}
-      <div className="w-full fixed">
+      <div className="absolute bottom-0 left-0 w-full z-30">
         <Animate />
       </div>
     </section>
