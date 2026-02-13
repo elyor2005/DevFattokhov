@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Outfit, Inter, Syne } from "next/font/google";
-import "./globals.css";
-import Navbar from "../components/layout/Navbar";
-import SmoothScroll from "../components/layout/SmoothScroll";
-import { LanguageProvider } from "../i18n/LanguageProvider";
+import "@/src/app/globals.css";
+import Navbar from "@/src/components/layout/Navbar";
+import SmoothScroll from "@/src/components/layout/SmoothScroll";
+import { LanguageProvider } from "@/src/i18n/LanguageProvider";
 
 const outfit = Outfit({
   subsets: ["latin"],
