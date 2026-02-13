@@ -1,0 +1,431 @@
+{
+  "nav": {
+    "home": "Home",
+    "works": "Works",
+    "about": "About",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Abdufattokhov Elyor",
+    "subtitle": "Frontend Architect crafting premium web experiences",
+    "viewProjects": "View Projects",
+    "downloadResume": "Download Resume",
+    "getInTouch": "Get in Touch"
+  },
+  "about": {
+    "title": "About",
+    "description": "Get to know more about my skills and expertise",
+    "skills": {
+      "cleanCode": {
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable code with best practices"
+      },
+      "fastPerformance": {
+        "title": "Fast Performance",
+        "description": "Optimized solutions for blazing-fast user experiences"
+      },
+      "modernStack": {
+        "title": "Modern Stack",
+        "description": "Leveraging latest technologies and frameworks"
+      },
+      "rapidDevelopment": {
+        "title": "Rapid Development",
+        "description": "Agile workflow for quick iterations and delivery"
+      }
+    },
+    "bio": {
+      "intro": "Hi! I'm a passionate front-end developer who started the coding journey on November 9, 2024. Since then, I've dedicated myself to learning and building real-world projects using HTML, CSS, and JavaScript. Early on, I created 8-10 projects to strengthen my understanding of the fundamentals.",
+      "experience": "In the last three months, I've shifted my focus to React.js and Next.js, where I've completed over 15 projects, gaining hands-on experience with modern web development practices and component-based design. I enjoy creating clean, responsive, and user-friendly interfaces that solve real problems.",
+      "current": "Currently, I'm building my portfolio with Next.js to showcase my skills, creativity, and growth as a developer. I'm always eager to learn new tools and technologies to become better every day. I enjoy turning complex problems into clean, scalable solutions. Collaboration, curiosity, and continuous learning are at the heart of how I grow."
+    },
+    "bento": {
+      "experience": {
+        "title": "Experience",
+        "highlight": "15+ Projects",
+        "description": "Delivered production-ready applications as a Full-Stack Freelancer."
+      },
+      "education": {
+        "title": "Education",
+        "degree": "Frontend Internship",
+        "institution": "Itransition"
+      },
+      "stack": {
+        "title": "Tech Stack",
+        "description": "My preferred weapons of choice for building digital products."
+      },
+      "languages": {
+        "title": "Languages",
+        "uzbek": "Uzbek (Native)",
+        "english": "English (IELTS 6.5)",
+        "russian": "Russian (Intermediate)"
+      },
+      "certificate": {
+        "title": "Certified",
+        "name": "JavaScript Certificate",
+        "issuer": "Verified"
+      }
+    },
+    "ui": {
+      "badge": "About Me",
+      "titlePart1": "Building the future of",
+      "titlePart2": "Digital Experiences",
+      "stats": {
+        "experience": "15+",
+        "experienceLabel": "Delivered production-ready applications as a Full-Stack Freelancer."
+      },
+      "stack": {
+        "title": "Tech Stack",
+        "description": "My preferred weapons of choice for building digital products."
+      },
+      "languages": {
+        "title": "Languages",
+        "items": {
+          "en": "English",
+          "uz": "Uzbek",
+          "ru": "Russian"
+        },
+        "levels": {
+          "en": "Advances",
+          "uz": "Native",
+          "ru": "B1"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Let's connect and build something amazing",
+    "getInTouch": "Get in Touch",
+    "subtitle": "Like what you see? Let's build something amazing together",
+    "connectWithMe": "Connect with me",
+    "ui": {
+      "available": "Available for work",
+      "title": "Let's start a <br /> <span class='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400'>project together</span>.",
+      "description": "Ready to start a conversation? Send me a message and I'll get back to you as soon as possible.",
+      "mailLabel": "Mail me at",
+      "sendButton": "Send Email",
+      "socialsTitle": "Socials"
+    },
+    "form": {
+      "badge": "✨ Get in Touch",
+      "heading": "Contact",
+      "headingHighlight": "Me",
+      "description": "Ready to start a conversation? Send me a message and I'll get back to you as soon as possible.",
+      "yourName": "Your Name",
+      "email": "Email Address",
+      "company": "Company (Optional)",
+      "message": "Tell me about your project...",
+      "sendMessage": "Send Message",
+      "messageSent": "Message Sent!",
+      "messageSentDescription": "We've received your message. You can also reach out directly at",
+      "sendAnother": "Send Another Message",
+      "errors": {
+        "fullnameRequired": "Full name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email address",
+        "messageRequired": "Message is required"
+      },
+      "success": "Message sent successfully!",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "metadata": {
+    "title": "DevFattokhov - Frontend Architect",
+    "description": "Abdufattokhov Elyor - Frontend Architect. Precision-crafted web experiences with clean, optimized, and scalable solutions."
+  },
+  "common": {
+    "logo": "DevFattokhov"
+  },
+  "resume": {
+    "pageTitle": "Resume",
+    "download": "Download PDF",
+    "roleTitle": "Frontend Engineer | React / Next.js",
+    "summary": {
+      "title": "Professional Summary",
+      "content": "Frontend Engineer with full-stack experience building production-ready web applications using React, Next.js, and TypeScript. Delivered 15+ projects with a focus on component architecture, performance optimization, and scalable application design. Proficient in integrating backend services including authentication, database management, and third-party APIs. Experienced in converting design specifications into responsive, accessible interfaces."
+    },
+    "experience": {
+      "title": "Experience",
+      "items": [
+        {
+          "role": "Full-Stack Developer",
+          "company": "Freelance",
+          "period": "Nov 2024 - Present",
+          "achievements": [
+            "Architected and delivered 15+ production-ready web applications using Next.js (App Router), React, and TypeScript",
+            "Designed reusable component systems with Radix UI and shadcn/ui, reducing development time across projects",
+            "Implemented end-to-end authentication flows using Better Auth and Google OAuth with role-based access control",
+            "Integrated PostgreSQL (Neon) and MongoDB databases via Prisma ORM for type-safe data access",
+            "Built transactional email systems using Nodemailer and React Email for automated workflows",
+            "Configured file upload pipelines with AWS S3 for secure media storage and delivery",
+            "Optimized application performance through server/client component separation and code splitting",
+            "Implemented internationalization (next-intl) supporting multiple language variants across applications",
+            "Converted Figma designs into pixel-perfect, responsive interfaces with Tailwind CSS"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Inter Developer Internship Certificate — Front-End Development",
+          "institution": "Itransition",
+          "period": "Jun 2025 - Nov 2025",
+          "description": "Front-End Development and Full-Stack fundamentals. EQF Level 4.",
+          "link": "https://itransition.com"
+        },
+        {
+          "degree": "Self-Taught Developer",
+          "institution": "Independent Study",
+          "period": "2024 - Present",
+          "description": "Advanced JavaScript, React architecture, and system design principles through documentation and building production applications."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "Uzbek",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "IELTS 6.5"
+        },
+        {
+          "name": "Russian",
+          "level": "Intermediate"
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Certificates",
+      "items": [
+        {
+          "name": "JavaScript Certificate",
+          "issuer": "Verified",
+          "date": "Nov 2025",
+          "file": "/assets/Elyor Abdufattokhov - JavaScript - Nov 20th, 2025.pdf"
+        }
+      ],
+      "viewCertificate": "View Certificate"
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": [
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "items": [
+            "React.js",
+            "Next.js (App Router)",
+            "Tailwind CSS",
+            "Framer Motion",
+            "GSAP",
+            "Radix UI",
+            "shadcn/ui"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Next.js API Routes",
+            "Prisma ORM",
+            "Better Auth",
+            "Nodemailer",
+            "React Email",
+            "REST APIs"
+          ]
+        },
+        {
+          "name": "Databases",
+          "items": [
+            "PostgreSQL (Neon)",
+            "MongoDB"
+          ]
+        },
+        {
+          "name": "Tools",
+          "items": [
+            "Git",
+            "Vercel",
+            "AWS S3",
+            "Google OAuth",
+            "TanStack React Query",
+            "next-intl",
+            "next-themes"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "elyorabdufattokhov@gmail.com",
+      "location": "Uzbekistan"
+    }
+  },
+  "works": {
+    "title": "Works",
+    "description": "Explore my latest projects and creations",
+    "pageDescription": "Explore a selection of my work showcasing my skills as a front-end developer. From responsive websites to interactive user interfaces, each project reflects my passion for clean code, modern design, and delivering smooth, user-friendly experiences. I focus on creating scalable, high-performance applications using the latest front-end technologies.",
+    "designDevelopment": "Design & Development",
+    "backToWorks": "Back to works",
+    "livePreview": "Live preview",
+    "year": "Year",
+    "type": "Type",
+    "client": "Client",
+    "latest": "Latest",
+    "oldest": "Oldest",
+    "items": {
+      "work-1": {
+        "name": "The Rosa",
+        "type": "Frontend Development",
+        "client": "The Rosa",
+        "description": "I developed a visually captivating and interactive website for The Rosa, a stylish brand concept. This modern landing page combines minimalistic elegance with smooth animations to create an immersive user experience. The design is built around a soft, pastel-themed aesthetic, perfectly aligned with high-end fashion or beauty branding. The site utilizes cutting-edge web technologies such as HTML, CSS, JavaScript,  to deliver seamless transitions and scroll-triggered effects. This project demonstrates my ability to craft elegant, responsive, and animation-rich websites with a strong focus on user experience and visual storytelling."
+      },
+      "work-2": {
+        "name": "Sea Side",
+        "type": "Frontend Development",
+        "client": "Sea Side",
+        "description": "I created a vibrant and engaging website called Sea Side, designed to showcase a serene ocean-themed landing page with immersive visuals and motion effects. The site captures the calm and beauty of seaside life through creative layout, color palette, and animation. Built using HTML, CSS, JavaScript  the project features smooth scrolling, parallax effects, and animated elements that respond to user interaction. This project highlights my skills in building aesthetic, responsive, and animation-driven web experiences that emphasize both design and functionality"
+      },
+      "work-3": {
+        "name": "Portfolio",
+        "type": "Frontend Development",
+        "client": "By Someone",
+        "description": "I developed a sleek and modern Portfolio Demo website to present creative work in a clean and structured format. This responsive, single-page design highlights key sections such as About, Skills, Projects, and Contact, offering a smooth user experience. The website is built using HTML, CSS, and JavaScript, with subtle animations and transitions enhancing the visual appeal. The layout is intuitive and mobile-friendly, demonstrating my ability to create professional personal portfolios that effectively showcase individual branding and technical skills."
+      },
+      "work-4": {
+        "name": "Discord",
+        "type": "Frontend Development",
+        "client": "By Discord",
+        "description": "I built a clean and responsive Discord Clone landing page that closely replicates the modern design and layout of the original Discord homepage. This project demonstrates my ability to recreate real-world UI designs with precision and attention to detail. Developed using HTML, CSS, and JavaScript, the site includes structured sections, hover effects, and a polished user interface. The layout adapts smoothly across devices, showcasing my front-end development skills in responsive design, layout structuring, and brand-style replication."
+      },
+      "work-5": {
+        "name": "Hulu",
+        "type": "Frontend Development",
+        "client": "By Hulu",
+        "description": "I developed a visually accurate Hulu Clone landing page inspired by the official Hulu website. The project focuses on recreating the platform`s modern streaming interface with attention to layout, typography, and design consistency. Built using HTML, CSS, and JavaScript, the page features a responsive grid system, vibrant call-to-action elements, and a sleek dark theme that mirrors Hulu`s branding. This project highlights my ability to clone real-world websites with pixel-perfect design and optimized responsiveness for both desktop and mobile devices."
+      },
+      "work-6": {
+        "name": "BrainWave",
+        "type": "Frontend Development",
+        "client": "By BrainWave",
+        "description": "I developed Brainwave, a cutting-edge AI-powered landing page designed to showcase the capabilities of futuristic technology. The site features a bold, modern UI with dynamic animations and clean layout transitions. Built using React.js, Tailwind CSS, and Framer Motion, the project demonstrates advanced front-end skills in component-based architecture, responsive design, and smooth motion effects. The dark theme combined with vibrant gradients and 3D-inspired visuals delivers a sleek, immersive user experience. This project reflects my ability to create high-quality, modern interfaces optimized for performance and engagement."
+      },
+      "work-7": {
+        "name": "Virtual Vision",
+        "type": "Frontend Development",
+        "client": "By Virtual Vision",
+        "description": "I created Virtual Vision, a futuristic and visually rich landing page for a tech-oriented brand focused on innovation and digital experiences. The design emphasizes modernity through bold typography, gradient backgrounds, and smooth section transitions. Developed using React.js, Tailwind CSS, and Framer Motion, the site showcases advanced animation techniques and responsive design principles. With a clean UI and engaging scroll-based effects, this project demonstrates my expertise in building immersive front-end experiences that align with emerging tech themes and futuristic branding."
+      },
+      "work-8": {
+        "name": "Restaurant ",
+        "type": "Frontend Development",
+        "client": "By Restaurant",
+        "description": "I built a stylish and responsive Restaurant landing page using React.js, showcasing a clean and modern interface tailored for the food and hospitality industry. The website highlights sections like the menu, specials, and reservation details, all presented with smooth navigation and engaging visuals. Styled with CSS and structured with React components, the design ensures scalability and maintainability. This project demonstrates my ability to develop professional, user-centric web applications using modern React practices with a strong emphasis on visual presentation and user experience."
+      },
+      "work-9": {
+        "name": "Redefine ",
+        "type": "Frontend Development",
+        "client": "By Redefine",
+        "description": "I developed Redefine, a sleek and futuristic landing page using React.js and Tailwind CSS, designed to showcase high-end branding with a strong visual identity. The interface combines bold typography, clean grid layouts, and a minimalist aesthetic to deliver a premium look and feel. Enhanced with GSAP for smooth, scroll-triggered animations, the site offers a dynamic and immersive user experience. This project highlights my expertise in building responsive, component-based UIs and integrating modern animation libraries to elevate the visual impact of web applications."
+      },
+      "work-10": {
+        "name": "VastuSpaze ",
+        "type": "Frontend Development",
+        "client": "By VastuSpaze",
+        "description": "I developed VastuSpaze, a clean and elegant landing page tailored for interior design and architecture services. Built with HTML, CSS, and JavaScript, the site features a soft, modern color scheme, professional layout, and smooth scroll behavior to create a refined and welcoming user experience. The design emphasizes clarity and structure, making it ideal for showcasing design philosophy, services, and brand identity. This project highlights my ability to create responsive, visually balanced websites that align with the aesthetics and goals of creative service industries."
+      },
+      "work-11": {
+        "name": "Stream Clone ",
+        "type": "Frontend Development",
+        "client": "By Stream",
+        "description": "I built a visually engaging Stream Clone landing page inspired by modern streaming platforms. Designed using HTML, CSS, and JavaScript, the site replicates the sleek layout and bold visuals typical of popular entertainment services. The dark theme, featured content sections, and responsive grid layout provide an immersive user experience across all devices. This project demonstrates my ability to recreate real-world UI designs with attention to branding, responsiveness, and front-end performance."
+      },
+      "work-12": {
+        "name": "Convoy  ",
+        "type": "Frontend Development",
+        "client": "By Convoy  ",
+        "description": "I built a pixel-perfect Convoy Web Clone, replicating the landing page of the logistics and freight technology company Convoy. Developed using HTML, CSS, and JavaScript, the project focuses on recreating the clean layout, professional typography, and structured content sections of the original site. The clone is fully responsive, offering smooth navigation and layout consistency across devices. This project demonstrates my attention to detail and ability to accurately reproduce real-world UIs, making it a strong example of layout replication and front-end development best practices."
+      },
+      "work-13": {
+        "name": "AdCarrot ",
+        "type": "Frontend Development",
+        "client": "By AdCarrot ",
+        "description": "I created AdCarrot, a minimalist and modern landing page concept designed to promote a digital product or service with clarity and style. Built using HTML, CSS, and JavaScript, the site features a clean layout, bold headings, and smooth scrolling effects that guide the user through key content sections. The design emphasizes simplicity and focus, making it ideal for startups or promotional campaigns. This project showcases my ability to deliver lightweight, responsive, and visually appealing web experiences that align with strong branding principles."
+      },
+      "work-14": {
+        "name": "DataSince ",
+        "type": "Frontend Development",
+        "client": "By DataSince ",
+        "description": "I developed DataSince, a futuristic and tech-focused landing page for a data analytics or AI-driven startup. Built with React.js and Tailwind CSS, the site features a clean, responsive design enhanced by Framer Motion animations for smooth transitions and dynamic user interactions. The layout emphasizes modern typography, vibrant gradients, and clear visual hierarchy to highlight services, features, and brand identity. This project showcases my ability to build highly polished, interactive front-end experiences with modern tools and frameworks, ideal for tech, SaaS, and innovation-driven industries."
+      },
+      "work-15": {
+        "name": "Inventory Pro SaaS",
+        "type": "Full-Stack Development",
+        "client": "Personal Project",
+        "description": "A high-performance Full-Stack inventory management system built with Next.js 15 and TypeScript. I engineered a robust backend architecture using Prisma ORM and PostgreSQL to handle complex data relationships, integrated with AWS S3 and Cloudinary for secure, scalable asset storage. The application features a secure multi-strategy authentication system via Better-Auth and a localized UI using Next-intl. By implementing Drag-and-Drop (dnd-kit) and Markdown support, I created a seamless user experience for managing product catalogs and warehouse workflows in a modern, dark-mode ready dashboard."
+      },
+      "work-16": {
+        "name": "Firstify Business System",
+        "type": "Full-Stack Development",
+        "client": "Internal Business Solution",
+        "description": "Firstify is an enterprise-grade business management system built on the cutting edge of the React ecosystem (Next.js 16 & React 19). I architected a seamless end-to-end experience featuring complex server-side logic with Prisma and PostgreSQL, paired with a highly reactive frontend utilizing TanStack Query and Zustand. The platform incorporates a refined UI/UX using Radix UI primitives and custom GSAP/Framer Motion sequences for high-end visual storytelling. Key features include secure multi-role authentication via Better-Auth, real-time data visualization with Recharts, and automated cloud storage integration through AWS S3, all wrapped in a localized, type-safe environment."
+      },
+      "work-17": {
+        "name": "AeroSound Immersive Experience",
+        "type": "Creative Frontend Development",
+        "client": "Concept E-commerce",
+        "description": "A high-end, immersive product landing page designed to push the boundaries of web interactivity. I utilized Next.js 16 and Tailwind CSS 4 to build a hyper-performant foundation, but the core of the project lies in the sophisticated animation orchestration. By combining GSAP for complex timeline-based scroll sequences and Framer Motion for organic component interactions, I created a seamless 'cinematic' browsing experience. This project highlights my expertise in performance optimization for motion-heavy sites and my ability to translate premium brand identities into interactive digital realities."
+      },
+      "work-18": {
+        "name": "Selhono Architecture & Interiors",
+        "type": "Creative Frontend Development",
+        "client": "Luxury Design Studio",
+        "description": "A sophisticated digital experience for an architecture and interior design studio. I leveraged Next.js 16.1 and Tailwind CSS 4 to create a high-performance foundation capable of handling large-scale high-definition imagery without compromising on speed. The project features complex GSAP-driven parallax effects and Framer Motion layout transitions that mirror the elegance of the brand’s physical spaces. By implementing modern frontend patterns, I focused on creating an immersive, 'magazine-style' browsing experience that guides users through a portfolio of luxury living and commercial design projects."
+      },
+      "work-19": {
+        "name": "Velocity Bike Systems",
+        "type": "Frontend Development",
+        "client": "Personal Project",
+        "description": "A high-performance, multi-language e-commerce interface designed for a global cycling brand. Developed with Next.js 16.1 and Tailwind CSS 4, the platform features a full internationalization (i18n) system using next-intl, supporting seamless language switching and localized content delivery. I integrated Framer Motion to create fluid, physics-based interactions that reflect the dynamic nature of the product, while Lucide-react and Flag-icons ensure a clean, intuitive navigation experience. This project demonstrates my proficiency in building scalable, accessible, and globally-aware web applications."
+      },
+      "work-20": {
+        "name": "Lumina Jewelry Boutique",
+        "type": "Frontend Development",
+        "client": "Personal Project",
+        "description": "A luxury e-commerce storefront designed with a focus on minimalist aesthetics and high-end typography. I utilized Next.js 16 and Tailwind CSS 4 to engineer a lightning-fast browsing experience that prioritizes visual clarity and product storytelling. The interface is elevated by bespoke Framer Motion transitions, creating a 'soft-touch' digital feel that mirrors the premium nature of fine jewelry. This project highlights my ability to use whitespace, grid systems, and subtle motion to build sophisticated brand identities that resonate with a high-end clientele."
+      },
+      "work-21": {
+        "name": "Nexus Agency Landing",
+        "type": "Frontend Development",
+        "client": "Creative Agency Concept",
+        "description": "A high-impact landing page tailored for modern creative and digital agencies. I engineered this project using Next.js 16 and Tailwind CSS 4 to ensure industry-leading performance and SEO optimization. The site features advanced GSAP scroll-triggered animations and seamless dark/light mode switching via Next-themes, allowing for a versatile user experience. By integrating a modular component architecture, I focused on creating a scalable design system that balances bold typography with high-fidelity motion graphics to establish brand authority and drive lead generation."
+      },
+      "work-22": {
+        "name": "NomadQuest Travel Hub",
+        "type": "Frontend Development",
+        "client": "Leisure & Tourism Concept",
+        "description": "A dynamic travel exploration platform designed for the modern adventurer. Built with Next.js 16 and Tailwind CSS 4, the application features an intuitive search interface with integrated price filtering via rc-slider and localized date handling with date-fns. I orchestrated a vibrant user experience using GSAP for immersive hero transitions and Framer Motion for interactive booking elements. The project emphasizes mobile-first design and high-performance asset loading, ensuring a seamless experience for users planning their next journey across any device."
+      },
+      "work-23": {
+        "name": "NestLink SaaS Ecosystem",
+        "type": "Full-Stack Development",
+        "client": "SaaS Personal Project",
+        "description": "A comprehensive SaaS infrastructure built with Next.js 16 and React 19, designed for scalable user management and automated communication workflows. I implemented a secure authentication system using Better-Auth and engineered a transactional email pipeline using React Email and Nodemailer for professional user engagement. The backend is powered by Prisma ORM for type-safe database interactions and AWS S3 for cloud asset management. To ensure a premium user experience, I integrated TanStack Query for efficient server-state management and crafted a high-fidelity UI using Shadcn/UI, GSAP, and Framer Motion."
+      }
+    }
+  }
+}

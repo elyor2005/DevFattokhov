@@ -1,54 +1,301 @@
 @import "tailwindcss";
 
 :root {
-  --background: black;
-  --foreground: white;
+  /* iPhone-Inspired Premium Color Palette */
+  --off-white: #fafafa;
+  --pure-white: #ffffff;
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --ios-blue: #007aff;
+  --border-light: #d2d2d7;
+
+  --background: var(--off-white);
+  --foreground: var(--text-primary);
+  --surface: var(--pure-white);
+  --accent: var(--ios-blue);
 }
 
 @theme inline {
-  --color-background: black;
-  --color-foreground: var(--foreground);
+  --color-background: var(--off-white);
+  --color-foreground: var(--text-primary);
+  --color-surface: var(--pure-white);
+  --color-accent: var(--ios-blue);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-syne: var(--font-syne);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: black;
-    --foreground: white;
-  }
+.font-syne {
+  font-family: var(--font-syne), sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: "general", sans-serif;
+  background: linear-gradient(180deg, #fafafa 0%, #f5f5f7 100%);
+  color: var(--text-primary);
+  font-family:
+    var(--font-inter),
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Premium Typography */
 @layer base {
-  @font-face {
-    font-family: "general";
-    src: url("/fonts/general.woff2") format("woff2");
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family:
+      var(--font-outfit),
+      -apple-system,
+      BlinkMacSystemFont,
+      "SF Pro Display",
+      sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+  }
+
+  body,
+  p,
+  span,
+  a,
+  button,
+  input,
+  textarea {
+    font-family:
+      var(--font-inter),
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
+  }
+
+  p {
+    color: var(--text-secondary);
+    line-height: 1.6;
   }
 }
 
+/* Glassmorphism System */
 @layer utilities {
-  .nav-hover-btn {
-    @apply relative ms-10  text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
+  /* Premium Glass Card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:
+      0 8px 32px 0 rgba(31, 38, 135, 0.07),
+      0 2px 8px 0 rgba(0, 0, 0, 0.03);
   }
-  .hero-heading {
-    @apply uppercase  font-black text-5xl sm:right-10 sm:text-3xl md:text-5xl lg:text-7xl;
+
+  /* Frosted Glass Navbar */
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 0.5px solid var(--border-light);
   }
-}
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
+
+  /* Premium Shadow System */
+  .shadow-sm-premium {
+    box-shadow:
+      0 1px 2px 0 rgba(0, 0, 0, 0.03),
+      0 1px 3px 0 rgba(0, 0, 0, 0.02);
   }
-  100% {
-    transform: translateX(-50%);
+
+  .shadow-premium {
+    box-shadow:
+      0 1px 3px 0 rgba(0, 0, 0, 0.04),
+      0 10px 20px -5px rgba(0, 0, 0, 0.08);
+  }
+
+  .shadow-lg-premium {
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.06),
+      0 20px 40px -10px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Hover: Lift Card */
+  .card-lift {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow:
+      0 8px 16px -4px rgba(0, 0, 0, 0.08),
+      0 30px 60px -15px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Premium Rounded Corners */
+  .rounded-premium {
+    border-radius: 24px;
+  }
+
+  .rounded-premium-sm {
+    border-radius: 16px;
+  }
+
+  .rounded-premium-lg {
+    border-radius: 32px;
+  }
+
+  /* Hairline Border */
+  .border-hairline {
+    border: 0.5px solid var(--border-light);
+  }
+
+  /* Smooth Scroll */
+  html.lenis {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
   }
 }
 
-.animate-marquee {
-  animation: marquee 30s linear infinite;
+/* Premium Gradient Button */
+.btn-premium {
+  background: linear-gradient(135deg, #007aff 0%, #0051d5 100%);
+  color: white;
+  font-weight: 500;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 2px 8px 0 rgba(0, 122, 255, 0.25),
+    0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-premium:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 4px 12px 0 rgba(0, 122, 255, 0.35),
+    0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.btn-premium:active {
+  transform: translateY(0);
+}
+
+/* Subtle Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Selection Color */
+::selection {
+  background: rgba(0, 122, 255, 0.2);
+  color: var(--text-primary);
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--off-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: auto;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 10mm !important;
+  }
+
+  /* Hide navigation, footer, and other non-resume elements */
+  nav,
+  footer,
+  .no-print,
+  header[class*="min-h-screen"],
+  .glass-nav {
+    display: none !important;
+  }
+
+  /* Ensure the resume container takes full width */
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    display: block !important;
+  }
+
+  /* Reset some styles for print */
+  .resume-container {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: white !important;
+  }
+
+  .min-h-screen {
+    min-height: auto !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  span {
+    color: black !important;
+    -webkit-text-fill-color: black !important;
+    text-shadow: none !important;
+  }
 }

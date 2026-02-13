@@ -223,4 +223,148 @@ export const WORKS = [
       "/assets/works/14/2.jpg",
     ],
   },
+  {
+    id: "work-15",
+    preview: "/assets/works/15/preview.jpg",
+    name: "Inventory Pro SaaS",
+    type: "Full-Stack Development",
+    liveUrl: "https://inventory-app-mu-inky.vercel.app/",
+    client: "Personal Project",
+    year: "2025",
+    description:
+      "A high-performance Full-Stack inventory management system built with Next.js 15 and TypeScript. I engineered a robust backend architecture using Prisma ORM and PostgreSQL to handle complex data relationships, integrated with AWS S3 and Cloudinary for secure, scalable asset storage. The application features a secure multi-strategy authentication system via Better-Auth and a localized UI using Next-intl. By implementing Drag-and-Drop (dnd-kit) and Markdown support, I created a seamless user experience for managing product catalogs and warehouse workflows in a modern, dark-mode ready dashboard.",
+    images: [
+      "/assets/works/15/preview.jpg",
+      "/assets/works/15/1.jpg",
+      "/assets/works/15/2.jpg",
+    ],
+  },
+  {
+    id: "work-16",
+    preview: "/assets/works/16/preview.jpg",
+    name: "Firstify Business System",
+    type: "Full-Stack Development",
+    liveUrl: "https://firs-ti-fy.vercel.app/",
+    client: "Internal Business Solution",
+    year: "2025",
+    description:
+      "Firstify is an enterprise-grade business management system built on the cutting edge of the React ecosystem (Next.js 16 & React 19). I architected a seamless end-to-end experience featuring complex server-side logic with Prisma and PostgreSQL, paired with a highly reactive frontend utilizing TanStack Query and Zustand. The platform incorporates a refined UI/UX using Radix UI primitives and custom GSAP/Framer Motion sequences for high-end visual storytelling. Key features include secure multi-role authentication via Better-Auth, real-time data visualization with Recharts, and automated cloud storage integration through AWS S3, all wrapped in a localized, type-safe environment.",
+    images: [
+      "/assets/works/16/preview.jpg",
+      "/assets/works/16/1.jpg",
+      "/assets/works/16/2.jpg",
+    ],
+  },
+  {
+    id: "work-17",
+    preview: "/assets/works/17/preview.jpg",
+    name: "AeroSound Immersive Experience",
+    type: "Creative Frontend Development",
+    liveUrl: "https://headphones-fawn.vercel.app/",
+    client: "Concept E-commerce",
+    year: "2026",
+    description:
+      "A high-end, immersive product landing page designed to push the boundaries of web interactivity. I utilized Next.js 16 and Tailwind CSS 4 to build a hyper-performant foundation, but the core of the project lies in the sophisticated animation orchestration. By combining GSAP for complex timeline-based scroll sequences and Framer Motion for organic component interactions, I created a seamless 'cinematic' browsing experience. This project highlights my expertise in performance optimization for motion-heavy sites and my ability to translate premium brand identities into interactive digital realities.",
+    images: [
+      "/assets/works/17/preview.jpg",
+      "/assets/works/17/1.jpg",
+      "/assets/works/17/2.jpg",
+    ],
+  },
+  {
+    id: "work-18",
+    preview: "/assets/works/18/preview.jpg",
+    name: "Selhono Architecture & Interiors",
+    type: "Creative Frontend Development",
+    liveUrl: "https://selhon.vercel.app/",
+    client: "Luxury Design Studio",
+    year: "2026",
+    description:
+      "A sophisticated digital experience for an architecture and interior design studio. I leveraged Next.js 16.1 and Tailwind CSS 4 to create a high-performance foundation capable of handling large-scale high-definition imagery without compromising on speed. The project features complex GSAP-driven parallax effects and Framer Motion layout transitions that mirror the elegance of the brand’s physical spaces. By implementing modern frontend patterns, I focused on creating an immersive, 'magazine-style' browsing experience that guides users through a portfolio of luxury living and commercial design projects.",
+    images: [
+      "/assets/works/18/preview.jpg",
+      "/assets/works/18/1.jpg",
+      "/assets/works/18/2.jpg",   
+    ],
+  },
+  {
+    id: "work-19",
+    preview: "/assets/works/19/preview.jpg",
+    name: "Velocity Bike Systems",
+    type: "Frontend Development",
+    liveUrl: "https://bike-roan-ten.vercel.app/",
+    client: "Personal Project",
+    year: "2026",
+    description:
+      "A high-performance, multi-language e-commerce interface designed for a global cycling brand. Developed with Next.js 16.1 and Tailwind CSS 4, the platform features a full internationalization (i18n) system using next-intl, supporting seamless language switching and localized content delivery. I integrated Framer Motion to create fluid, physics-based interactions that reflect the dynamic nature of the product, while Lucide-react and Flag-icons ensure a clean, intuitive navigation experience. This project demonstrates my proficiency in building scalable, accessible, and globally-aware web applications.",
+    images: [
+      "/assets/works/19/preview.jpg",
+      "/assets/works/19/1.jpg",
+      "/assets/works/19/2.jpg",
+    ],
+  },
+  {
+    id: "work-20",
+    preview: "/assets/works/20/preview.jpg",
+    name: "Lumina Jewelry Boutique",
+    type: "Frontend Development",
+    liveUrl: "https://jewelry-wheat.vercel.app/",
+    client: "Personal Project",
+    year: "2026",
+    description:
+      "A luxury e-commerce storefront designed with a focus on minimalist aesthetics and high-end typography. I utilized Next.js 16 and Tailwind CSS 4 to engineer a lightning-fast browsing experience that prioritizes visual clarity and product storytelling. The interface is elevated by bespoke Framer Motion transitions, creating a 'soft-touch' digital feel that mirrors the premium nature of fine jewelry. This project highlights my ability to use whitespace, grid systems, and subtle motion to build sophisticated brand identities that resonate with a high-end clientele.",
+    images: [
+      "/assets/works/20/preview.jpg",
+      "/assets/works/20/1.jpg",
+      "/assets/works/20/2.jpg",
+    ],
+  },
+  {
+    id: "work-21",
+    preview: "/assets/works/21/preview.jpg",
+    name: "Nexus Agency Landing",
+    type: "Frontend Development",
+    liveUrl: "https://agency-one-bice.vercel.app/",
+    client: "Creative Agency Concept",
+    year: "2026",
+    description:
+      "A high-impact landing page tailored for modern creative and digital agencies. I engineered this project using Next.js 16 and Tailwind CSS 4 to ensure industry-leading performance and SEO optimization. The site features advanced GSAP scroll-triggered animations and seamless dark/light mode switching via Next-themes, allowing for a versatile user experience. By integrating a modular component architecture, I focused on creating a scalable design system that balances bold typography with high-fidelity motion graphics to establish brand authority and drive lead generation.",
+    images: [
+      "/assets/works/21/preview.jpg",
+      "/assets/works/21/1.jpg",
+      "/assets/works/21/2.jpg",
+    ],
+  },
+  {
+    id: "work-22",
+    preview: "/assets/works/22/preview.jpg",
+    name: "NomadQuest Travel Hub",
+    type: "Frontend Development",
+    liveUrl: "https://trevel-seven.vercel.app/",
+    client: "Leisure & Tourism Concept",
+    year: "2026",
+    description:
+      "A dynamic travel exploration platform designed for the modern adventurer. Built with Next.js 16 and Tailwind CSS 4, the application features an intuitive search interface with integrated price filtering via rc-slider and localized date handling with date-fns. I orchestrated a vibrant user experience using GSAP for immersive hero transitions and Framer Motion for interactive booking elements. The project emphasizes mobile-first design and high-performance asset loading, ensuring a seamless experience for users planning their next journey across any device.",
+    images: [
+      "/assets/works/22/preview.jpg",
+      "/assets/works/22/1.jpg",
+      "/assets/works/22/2.jpg",
+    ],
+  },
+  {
+    id: "work-23",
+    preview: "/assets/works/23/preview.jpg",
+    name: "NestLink SaaS Ecosystem",
+    type: "Full-Stack Development",
+    liveUrl: "https://nest-link-nine.vercel.app/",
+    client: "SaaS Personal Project",
+    year: "2026",
+    description:
+      "A comprehensive SaaS infrastructure built with Next.js 16 and React 19, designed for scalable user management and automated communication workflows. I implemented a secure authentication system using Better-Auth and engineered a transactional email pipeline using React Email and Nodemailer for professional user engagement. The backend is powered by Prisma ORM for type-safe database interactions and AWS S3 for cloud asset management. To ensure a premium user experience, I integrated TanStack Query for efficient server-state management and crafted a high-fidelity UI using Shadcn/UI, GSAP, and Framer Motion.",
+    images: [
+      "/assets/works/23/preview.jpg",
+      "/assets/works/23/1.jpg",
+      "/assets/works/23/2.jpg",
+    ],
+  },
 ];

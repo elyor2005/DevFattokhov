@@ -1,0 +1,431 @@
+{
+  "nav": {
+    "home": "Bosh Sahifa",
+    "works": "Loyihalar",
+    "about": "Men Haqimda",
+    "resume": "Rezyume",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "name": "Abdufattokhov Elyor",
+    "subtitle": "Premium veb dasturlar yaratuvchi Frontend Arxitektor",
+    "viewProjects": "Loyihalarni Ko'rish",
+    "downloadResume": "Rezyumeni Yuklash",
+    "getInTouch": "Bog'lanish"
+  },
+  "about": {
+    "title": "Men Haqimda",
+    "description": "Ko'nikmalarim va tajribam haqida ko'proq bilib oling",
+    "skills": {
+      "cleanCode": {
+        "title": "Toza Kod",
+        "description": "O'qilishi oson, kengaytiriluvchan va eng yaxshi amaliyotlarga asoslangan kod yozish"
+      },
+      "fastPerformance": {
+        "title": "Yuqori Tezlik",
+        "description": "Foydalanuvchilar uchun tezkor ishlashini ta'minlovchi optimallashtirilgan yechimlar"
+      },
+      "modernStack": {
+        "title": "Zamonaviy Texnologiyalar",
+        "description": "Eng so'nggi texnologiyalar va freymvorklardan foydalanish"
+      },
+      "rapidDevelopment": {
+        "title": "Tezkor Rivojlanish",
+        "description": "Tezkor iteratsiyalar va yetkazib berish uchun Agile ish jarayoni"
+      }
+    },
+    "bio": {
+      "intro": "Salom! Men 2024-yil 9-noyabrda dasturlash sayohatini boshlagan ishtiyoqli frontend dasturchisiman. O'shandan beri men HTML, CSS va JavaScript yordamida real loyihalarni o'rganish va qurishga bag'ishladim. Boshida men asoslarni mustahkamlash uchun 8-10 ta loyiha yaratdim.",
+      "experience": "So'nggi uch oy ichida men e'tiborimni React.js va Next.js ga qaratdim, u yerda men 15 dan ortiq loyihalarni yakunladim, zamonaviy veb-dasturlash amaliyotlari va komponentlarga asoslangan dizayn bo'yicha amaliy tajriba orttirdim. Men real muammolarni hal qiladigan toza, responsiv va foydalanuvchilar uchun qulay interfeyslarni yaratishni yaxshi ko'raman.",
+      "current": "Hozirda men o'z ko'nikmalarimni, ijodkorligimni va dasturchi sifatida o'sishimni namoyish qilish uchun Next.js yordamida portfoliomni quryapman. Men har kuni yaxshiroq bo'lish uchun yangi vositalar va texnologiyalarni o'rganishga doimo tayyorman. Murakkab muammolarni toza, kengaytiriluvchan yechimlarga aylantirish menga yoqadi. Hamkorlik, qiziquvchanlik va doimiy o'rganish mening o'sishimning markazida."
+    },
+    "bento": {
+      "experience": {
+        "title": "Tajriba",
+        "highlight": "15+ Loyihalar",
+        "description": "Full-Stack frilanser sifatida ishlab chiqarishga tayyor dasturlarni yetkazib berdim."
+      },
+      "education": {
+        "title": "Ta'lim",
+        "degree": "Frontend Amaliyot",
+        "institution": "Itransition"
+      },
+      "stack": {
+        "title": "Texnologiyalar",
+        "description": "Raqamli mahsulotlarni yaratish uchun afzal ko'rgan qurollarim."
+      },
+      "languages": {
+        "title": "Tillar",
+        "uzbek": "O'zbek (Ona tili)",
+        "english": "Ingliz (IELTS 6.5)",
+        "russian": "Rus (O'rta daraja)"
+      },
+      "certificate": {
+        "title": "Sertifikat",
+        "name": "JavaScript Sertifikati",
+        "issuer": "Tasdiqlangan"
+      }
+    },
+    "ui": {
+      "badge": "Men Haqimda",
+      "titlePart1": "Kelajakni qurish",
+      "titlePart2": "Raqamli Tajribalar",
+      "stats": {
+        "experience": "15+",
+        "experienceLabel": "Full-Stack frilanser sifatida ishlab chiqarishga tayyor dasturlarni yetkazib berdim."
+      },
+      "stack": {
+        "title": "Texnologiyalar",
+        "description": "Raqamli mahsulotlarni yaratish uchun afzal ko'rgan qurollarim."
+      },
+      "languages": {
+        "title": "Tillar",
+        "items": {
+          "en": "Ingliz",
+          "uz": "O'zbek",
+          "ru": "Rus"
+        },
+        "levels": {
+          "en": "Ilg'or",
+          "uz": "Ona tili",
+          "ru": "B1"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "description": "Kel, bog'lanamiz va ajoyib narsa yaratamiz",
+    "getInTouch": "Bog'lanish",
+    "subtitle": "Ko'rganlaringiz yoqdimi? Keling, birgalikda ajoyib narsa yarataylik",
+    "connectWithMe": "Men bilan bog'laning",
+    "ui": {
+      "available": "Ishlashga tayyorman",
+      "title": "Keling <br /> <span class='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400'>birga loyiha</span> boshlaymiz.",
+      "description": "Suhbatni boshlashga tayyormisiz? Menga xabar yuboring va men sizga iloji boricha tezroq javob beraman.",
+      "mailLabel": "Email manzilim",
+      "sendButton": "Xabar Yuborish",
+      "socialsTitle": "Ijtimoiy Tarmoqlar"
+    },
+    "form": {
+      "badge": "✨ Bog'lanish",
+      "heading": "Aloqa",
+      "headingHighlight": "Men",
+      "description": "Suhbatni boshlashga tayyormisiz? Menga xabar yuboring va men sizga iloji boricha tezroq javob beraman.",
+      "yourName": "Ismingiz",
+      "email": "Email Manzil",
+      "company": "Kompaniya (Ixtiyoriy)",
+      "message": "Loyihangiz haqida gapirib bering...",
+      "sendMessage": "Xabar Yuborish",
+      "messageSent": "Xabar Yuborildi!",
+      "messageSentDescription": "Biz xabaringizni qabul qildik. Shuningdek, biz bilan to'g'ridan-to'g'ri bog'lanishingiz mumkin:",
+      "sendAnother": "Boshqa Xabar Yuborish",
+      "errors": {
+        "fullnameRequired": "To'liq ism kiritilishi shart",
+        "emailRequired": "Email kiritilishi shart",
+        "emailInvalid": "Noto'g'ri email manzil",
+        "messageRequired": "Xabar kiritilishi shart"
+      },
+      "success": "Xabar muvaffaqiyatli yuborildi!",
+      "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
+    }
+  },
+  "metadata": {
+    "title": "DevFattokhov - Frontend Arxitektor",
+    "description": "Abdufattokhov Elyor - Frontend Arxitektor. Toza, optimallashtirilgan va kengaytiriluvchan yechimlar bilan aniq ishlangan veb tajribalari."
+  },
+  "common": {
+    "logo": "DevFattokhov"
+  },
+  "resume": {
+    "pageTitle": "Rezyume",
+    "download": "PDF Yuklash",
+    "roleTitle": "Frontend Muhandis | React / Next.js",
+    "summary": {
+      "title": "Professional Xulosa",
+      "content": "React, Next.js va TypeScript yordamida ishlab chiqarishga tayyor veb-ilovalar yaratish tajribasiga ega Frontend Muhandisi. Komponent arxitekturasi, ishlashni optimallashtirish va kengaytiriluvchan dastur dizayniga e'tibor qaratgan holda 15 dan ortiq loyihalarni yetkazib berdi. Backend xizmatlarini, shu jumladan autentifikatsiya, ma'lumotlar bazasini boshqarish va uchinchi tomon API'larini integratsiya qilishda malakali. Dizayn spetsifikatsiyalarini responsiv, qulay interfeyslarga aylantirish tajribasiga ega."
+    },
+    "experience": {
+      "title": "Tajriba",
+      "items": [
+        {
+          "role": "Full-Stack Dasturchi",
+          "company": "Frilans",
+          "period": "Noy 2024 - Hozirgi kunda",
+          "achievements": [
+            "Next.js (App Router), React va TypeScript yordamida 15+ ishlab chiqarishga tayyor veb-ilovalarni arxitektura qildi va yetkazib berdi",
+            "Radix UI va shadcn/ui bilan qayta ishlatiladigan komponent tizimlarini ishlab chiqdi, bu esa loyihalar bo'yicha ishlab chiqish vaqtini qisqartirdi",
+            "Better Auth va Google OAuth yordamida rollarga asoslangan kirish nazorati bilan to'liq autentifikatsiya oqimlarini amalga oshirdi",
+            "PostgreSQL (Neon) va MongoDB ma'lumotlar bazalarini Prisma ORM orqali xavfsiz ma'lumotlar almashinuvi uchun integratsiya qildi",
+            "Avtomatlashtirilgan ish oqimlari uchun Nodemailer va React Email yordamida tranzaksiya email tizimlarini qurdi",
+            "Xavfsiz media saqlash va yetkazib berish uchun AWS S3 bilan fayl yuklash quvurlarini sozlagan",
+            "Server/mijoz komponentlarini ajratish va kodni bo'lish orqali dastur ishlashini optimallashtirdi",
+            "Ilovalar bo'yicha bir nechta til variantlarini qo'llab-quvvatlovchi xalqaroallashtirishni (next-intl) amalga oshirdi",
+            "Tailwind CSS bilan Figma dizaynlarini piksel-mukammal, responsiv interfeyslarga aylantirdi"
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Ta'lim",
+      "items": [
+        {
+          "degree": "Inter Dasturchi Amaliyot Sertifikati — Front-End Dasturlash",
+          "institution": "Itransition",
+          "period": "Iyun 2025 - Noy 2025",
+          "description": "Front-End Dasturlash va Full-Stack asoslari. EQF 4-daraja.",
+          "link": "https://itransition.com"
+        },
+        {
+          "degree": "Mustaqil O'rgangan Dasturchi",
+          "institution": "Mustaqil O'qish",
+          "period": "2024 - Hozirgi kunda",
+          "description": "Hujjatlar va ishlab chiqarish dasturlarini qurish orqali chuqurlashtirilgan JavaScript, React arxitekturasi va tizim dizayni tamoyillari."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Tillar",
+      "items": [
+        {
+          "name": "O'zbek",
+          "level": "Ona tili"
+        },
+        {
+          "name": "Ingliz",
+          "level": "IELTS 6.5"
+        },
+        {
+          "name": "Rus",
+          "level": "O'rta daraja"
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Sertifikatlar",
+      "items": [
+        {
+          "name": "JavaScript Sertifikati",
+          "issuer": "Tasdiqlangan",
+          "date": "Noy 2025",
+          "file": "/assets/Elyor Abdufattokhov - JavaScript - Nov 20th, 2025.pdf"
+        }
+      ],
+      "viewCertificate": "Sertifikatni Ko'rish"
+    },
+    "skills": {
+      "title": "Texnik Ko'nikmalar",
+      "categories": [
+        {
+          "name": "Tillar",
+          "items": [
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3"
+          ]
+        },
+        {
+          "name": "Frontend",
+          "items": [
+            "React.js",
+            "Next.js (App Router)",
+            "Tailwind CSS",
+            "Framer Motion",
+            "GSAP",
+            "Radix UI",
+            "shadcn/ui"
+          ]
+        },
+        {
+          "name": "Backend",
+          "items": [
+            "Next.js API Routes",
+            "Prisma ORM",
+            "Better Auth",
+            "Nodemailer",
+            "React Email",
+            "REST APIs"
+          ]
+        },
+        {
+          "name": "Ma'lumotlar Bazalari",
+          "items": [
+            "PostgreSQL (Neon)",
+            "MongoDB"
+          ]
+        },
+        {
+          "name": "Vositalar",
+          "items": [
+            "Git",
+            "Vercel",
+            "AWS S3",
+            "Google OAuth",
+            "TanStack React Query",
+            "next-intl",
+            "next-themes"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Bog'lanish",
+      "email": "elyorabdufattokhov@gmail.com",
+      "location": "O'zbekiston"
+    }
+  },
+  "works": {
+    "title": "Loyihalar",
+    "description": "Mening so'nggi loyihalarim va ijod mahuylarim bilan tanishing",
+    "pageDescription": "Frontend dasturchi sifatidagi ko'nikmalarimni namoyish etuvchi ishlarim to'plami bilan tanishing. Responsiv veb-saytlardan tortib interaktiv foydalanuvchi interfeyslarigacha, har bir loyiha toza kod, zamonaviy dizayn va silliq, foydalanuvchilarga qulay tajribalarni taqdim etishga bo'lgan ishtiyoqimni aks ettiradi. Men eng so'nggi frontend texnologiyalaridan foydalangan holda kengaytiriluvchan, yuqori samarali ilovalarni yaratishga e'tibor qarataman.",
+    "designDevelopment": "Dizayn va Dasturlash",
+    "backToWorks": "Loyihalarga qaytish",
+    "livePreview": "Jonli ko'rish",
+    "year": "Yil",
+    "type": "Tur",
+    "client": "Mijoz",
+    "latest": "Eng so'nggi",
+    "oldest": "Eng eski",
+    "items": {
+      "work-1": {
+        "name": "The Rosa",
+        "type": "Frontend Dasturlash",
+        "client": "The Rosa",
+        "description": "Men zamonaviy brend konsepsiyasi bo'lgan The Rosa uchun ko'zni quvontiradigan va interaktiv veb-sayt ishlab chiqdim. Ushbu zamonaviy lending sahifasi toza elegantlikni silliq animatsiyalar bilan birlashtirib, immersiv foydalanuvchi tajribasini yaratadi. Dizayn yumshoq, pastel ranglarga asoslangan bo'lib, yuqori darajadagi moda yoki go'zallik brendingiga juda mos keladi. Sayt uzluksiz o'tishlar va aylantirish effektlarini taqdim etish uchun HTML, CSS, JavaScript kabi ilg'or veb-texnologiyalardan foydalanadi. Ushbu loyiha foydalanuvchi tajribasi va vizual hikoya qilishga katta e'tibor qaratgan holda elegant, responsiv va animatsiyaga boy veb-saytlarni yaratish qobiliyatimni namoyish etadi."
+      },
+      "work-2": {
+        "name": "Sea Side",
+        "type": "Frontend Dasturlash",
+        "client": "Sea Side",
+        "description": "Men Sea Side deb nomlangan jonli va jozibali veb-sayt yaratdim, u immersiv vizuallar va harakat effektlari bilan tinch okean mavzusidagi lending sahifasini namoyish etishga mo'ljallangan. Sayt ijodiy maket, ranglar palitrasi va animatsiya orqali dengiz bo'yidagi hayotning osoyishtaligi va go'zalligini aks ettiradi. HTML, CSS, JavaScript yordamida qurilgan loyiha silliq siljish, parallaks effektlari va foydalanuvchi o'zaro ta'siriga javob beradigan animatsion elementlarga ega. Ushbu loyiha ham dizayn, ham funksionallikka urg'u beradigan estetik, responsiv va animatsiyaga asoslangan veb-tajribalarni yaratishdagi ko'nikmalarimni ta'kidlaydi."
+      },
+      "work-3": {
+        "name": "Portfolio",
+        "type": "Frontend Dasturlash",
+        "client": "Shaxsiy",
+        "description": "Men ijodiy ishlarni toza va tuzilgan formatda taqdim etish uchun silliq va zamonaviy Portfolio Demo veb-saytini ishlab chiqdim. Ushbu responsiv, bir sahifali dizayn 'Men haqimda', 'Ko'nikmalar', 'Loyihalar' va 'Aloqa' kabi asosiy bo'limlarni ajratib ko'rsatib, silliq foydalanuvchi tajribasini taqdim etadi. Veb-sayt HTML, CSS va JavaScript yordamida qurilgan bo'lib, vizual jozibadorlikni oshiruvchi nozik animatsiyalar va o'tishlarga ega. Maket intuitiv va mobil qurilmalarga mos bo'lib, individual brending va texnik ko'nikmalarni samarali namoyish etadigan professional shaxsiy portfoliolar yaratish qobiliyatimni namoyish etadi."
+      },
+      "work-4": {
+        "name": "Discord Clone",
+        "type": "Frontend Dasturlash",
+        "client": "Discord Clone",
+        "description": "Men asl Discord bosh sahifasining zamonaviy dizayni va maketini aniq takrorlaydigan toza va responsiv Discord Clone lending sahifasini qurdim. Ushbu loyiha haqiqiy dunyo UI dizaynlarini aniqlik va tafsilotlarga e'tibor bilan qayta yaratish qobiliyatimni namoyish etadi. HTML, CSS va JavaScript yordamida ishlab chiqilgan sayt tuzilgan bo'limlar, hover effektlari va sayqallangan foydalanuvchi interfeysini o'z ichiga oladi. Maket turli xil qurilmalarda silliq moslashadi va responsiv dizayn, maket tuzilishi va brend uslubini takrorlash bo'yicha frontend dasturlash ko'nikmalarimni namoyish etadi."
+      },
+      "work-5": {
+        "name": "Hulu Clone",
+        "type": "Frontend Dasturlash",
+        "client": "Hulu Clone",
+        "description": "Men rasmiy Hulu veb-saytidan ilhomlangan vizual jihatdan aniq Hulu Clone lending sahifasini ishlab chiqdim. Loyiha platformaning zamonaviy striming interfeysini maket, tipografiya va dizayn izchilligiga e'tibor qaratgan holda qayta yaratishga qaratilgan. HTML, CSS va JavaScript yordamida qurilgan sahifa responsiv panjara tizimi, jonli chaqiruv elementlari va Hulu brendingini aks ettiruvchi silliq qorong'u mavzuni o'z ichiga oladi. Ushbu loyiha haqiqiy dunyo veb-saytlarini piksel-mukammal dizayn va ish stoli hamda mobil qurilmalar uchun optimallashtirilgan responsivlik bilan klonlash qobiliyatimni ta'kidlaydi."
+      },
+      "work-6": {
+        "name": "BrainWave",
+        "type": "Frontend Dasturlash",
+        "client": "BrainWave",
+        "description": "Men futuristik texnologiyalarning imkoniyatlarini namoyish etishga mo'ljallangan ilg'or sun'iy intellektga asoslangan Brainwave lending sahifasini ishlab chiqdim. Sayt dinamik animatsiyalar va toza maket o'tishlari bilan dadil, zamonaviy UIga ega. React.js, Tailwind CSS va Framer Motion yordamida qurilgan loyiha komponentlarga asoslangan arxitektura, responsiv dizayn va silliq harakat effektlari bo'yicha ilg'or frontend ko'nikmalarini namoyish etadi. Jonli gradientlar va 3D dan ilhomlangan vizuallar bilan birlashtirilgan qorong'u mavzu silliq, immersiv foydalanuvchi tajribasini taqdim etadi."
+      },
+      "work-7": {
+        "name": "Virtual Vision",
+        "type": "Frontend Dasturlash",
+        "client": "Virtual Vision",
+        "description": "Men innovatsiyalar va raqamli tajribalarga qaratilgan texnologik brend uchun futuristik va vizual jihatdan boy lending sahifasi - Virtual Visionni yaratdim. Dizayn dadil tipografiya, gradient fonlar va silliq bo'lim o'tishlari orqali zamonaviylikka urg'u beradi. React.js, Tailwind CSS va Framer Motion yordamida ishlab chiqilgan sayt ilg'or animatsiya texnikasi va responsiv dizayn tamoyillarini namoyish etadi. Toza UI va jozibali aylantirish effektlari bilan ushbu loyiha rivojlanayotgan texnologik mavzular va futuristik brendingga mos keladigan immersiv frontend tajribalarini yaratish bo'yicha tajribamni namoyish etadi."
+      },
+      "work-8": {
+        "name": "Restaurant",
+        "type": "Frontend Dasturlash",
+        "client": "Restaurant",
+        "description": "Men React.js yordamida oziq-ovqat va mehmondo'stlik sanoati uchun moslashtirilgan toza va zamonaviy interfeysni namoyish etuvchi zamonaviy va responsiv Restaurant lending sahifasini qurdim. Veb-sayt menyu, maxsus takliflar va band qilish tafsilotlari kabi bo'limlarni silliq navigatsiya va jozibali vizuallar bilan taqdim etadi. CSS bilan uslub berilgan va React komponentlari bilan tuzilgan dizayn kengaytiriluvchanlik va xizmat ko'rsatish qulayligini ta'minlaydi. Ushbu loyiha vizual taqdimot va foydalanuvchi tajribasiga kuchli urg'u bergan holda zamonaviy React amaliyotlaridan foydalanib professional, foydalanuvchiga yo'naltirilgan veb-ilovalarni ishlab chiqish qobiliyatimni namoyish etadi."
+      },
+      "work-9": {
+        "name": "Redefine",
+        "type": "Frontend Dasturlash",
+        "client": "Redefine",
+        "description": "Men kuchli vizual identifikatsiya bilan yuqori darajadagi brendingni namoyish etish uchun React.js va Tailwind CSS yordamida silliq va futuristik Redefine lending sahifasini ishlab chiqdim. Interfeys dadil tipografiya, toza panjara maketlari va minimalist estetikani birlashtirib, premium ko'rinish va his-tuyg'uni taqdim etadi. Silliq, aylantirish bilan ishga tushiriladigan animatsiyalar uchun GSAP bilan kuchaytirilgan sayt dinamik va immersiv foydalanuvchi tajribasini taklif etadi. Ushbu loyiha responsiv, komponentlarga asoslangan UIlarni qurish va veb-ilovalarning vizual ta'sirini oshirish uchun zamonaviy animatsiya kutubxonalarini integratsiya qilish bo'yicha tajribamni ta'kidlaydi."
+      },
+      "work-10": {
+        "name": "VastuSpaze",
+        "type": "Frontend Dasturlash",
+        "client": "VastuSpaze",
+        "description": "Men interyer dizayni va arxitektura xizmatlari uchun moslashtirilgan toza va elegant VastuSpaze lending sahifasini ishlab chiqdim. HTML, CSS va JavaScript yordamida qurilgan sayt yumshoq, zamonaviy ranglar sxemasi, professional maket va toza va mehmondo'st foydalanuvchi tajribasini yaratish uchun silliq aylantirish xatti-harakatiga ega. Dizayn aniqlik va tuzilishga urg'u beradi, bu esa dizayn falsafasi, xizmatlar va brend identifikatorini namoyish qilish uchun idealdir. Ushbu loyiha ijodiy xizmat ko'rsatish sohalarining estetikasi va maqsadlariga mos keladigan responsiv, vizual jihatdan muvozanatli veb-saytlar yaratish qobiliyatimni ta'kidlaydi."
+      },
+      "work-11": {
+        "name": "Stream Clone",
+        "type": "Frontend Dasturlash",
+        "client": "Stream Clone",
+        "description": "Men zamonaviy striming platformalaridan ilhomlangan vizual jihatdan jozibali Stream Clone lending sahifasini qurdim. HTML, CSS va JavaScript yordamida ishlab chiqilgan sayt ommabop ko'ngilochar xizmatlarga xos bo'lgan silliq maket va dadil vizuallarni takrorlaydi. Qorong'u mavzu, taniqli kontent bo'limlari va responsiv panjara maketi barcha qurilmalarda immersiv foydalanuvchi tajribasini taqdim etadi. Ushbu loyiha brending, responsivlik va frontend ishlashiga e'tibor qaratgan holda real dunyo UI dizaynlarini qayta yaratish qobiliyatimni namoyish etadi."
+      },
+      "work-12": {
+        "name": "Convoy Clone",
+        "type": "Frontend Dasturlash",
+        "client": "Convoy Clone",
+        "description": "Men logistika va yuk tashish texnologiyasi kompaniyasi Convoyning lending sahifasini takrorlovchi piksel-mukammal Convoy Veb Kloni qurdim. HTML, CSS va JavaScript yordamida ishlab chiqilgan loyiha asl saytning toza maketi, professional tipografiyasi va tuzilgan kontent bo'limlarini qayta yaratishga qaratilgan. Klon to'liq responsiv bo'lib, qurilmalar bo'ylab silliq navigatsiya va maket izchilligini taklif etadi. Ushbu loyiha tafsilotlarga e'tiborimni va real dunyo UIlarini aniq takrorlash qobiliyatimni namoyish etadi, bu esa maketni nusxalash va frontend dasturlashning eng yaxshi amaliyotlarining kuchli namunasidir."
+      },
+      "work-13": {
+        "name": "AdCarrot",
+        "type": "Frontend Dasturlash",
+        "client": "AdCarrot",
+        "description": "Men raqamli mahsulot yoki xizmatni aniqlik va uslub bilan targ'ib qilish uchun mo'ljallangan minimalist va zamonaviy AdCarrot lending sahifasi konsepsiyasini yaratdim. HTML, CSS va JavaScript yordamida qurilgan sayt toza maket, dadil sarlavhalar va foydalanuvchini asosiy kontent bo'limlari bo'ylab yo'naltiruvchi silliq aylantirish effektlariga ega. Dizayn soddalik va diqqatni jamlashga urg'u beradi, bu esa startaplar yoki reklama kampaniyalari uchun idealdir. Ushbu loyiha kuchli brending tamoyillariga mos keladigan yengil, responsiv va vizual jozibali veb-tajribalarni yetkazib berish qobiliyatimni namoyish etadi."
+      },
+      "work-14": {
+        "name": "DataSince",
+        "type": "Frontend Dasturlash",
+        "client": "DataSince",
+        "description": "Men ma'lumotlar tahlili yoki sun'iy intellektga asoslangan startap uchun futuristik va texnologiyaga yo'naltirilgan DataSince lending sahifasini ishlab chiqdim. React.js va Tailwind CSS bilan qurilgan sayt silliq o'tishlar va dinamik foydalanuvchi o'zaro ta'sirlari uchun Framer Motion animatsiyalari bilan kuchaytirilgan toza, responsiv dizaynga ega. Maket xizmatlar, xususiyatlar va brend identifikatorini ta'kidlash uchun zamonaviy tipografiya, jonli gradientlar va aniq vizual ierarxiyaga urg'u beradi. Ushbu loyiha texnologiya, SaaS va innovatsiyalarga asoslangan sohalar uchun ideal bo'lgan zamonaviy vositalar va freymvorklar bilan yuqori darajada sayqallangan, interaktiv frontend tajribalarini qurish qobiliyatimni namoyish etadi."
+      },
+      "work-15": {
+        "name": "Inventory Pro SaaS",
+        "type": "Full-Stack Dasturlash",
+        "client": "Shaxsiy Loyiha",
+        "description": "Next.js 15 va TypeScript bilan qurilgan yuqori samarali Full-Stack inventarni boshqarish tizimi. Men murakkab ma'lumotlar munosabatlarini boshqarish uchun Prisma ORM va PostgreSQL yordamida mustahkam backend arxitekturasini ishlab chiqdim, xavfsiz, kengaytiriluvchan aktivlarni saqlash uchun AWS S3 va Cloudinary bilan integratsiya qildim. Ilova Better-Auth orqali xavfsiz ko'p strategiyali autentifikatsiya tizimini va Next-intl yordamida mahalliylashtirilgan UIning o'z ichiga oladi. Drag-and-Drop (dnd-kit) va Markdown qo'llab-quvvatlashini amalga oshirish orqali men zamonaviy, qorong'u rejimga tayyor boshqaruv panelida mahsulot kataloglari va ombor ish oqimlarini boshqarish uchun silliq foydalanuvchi tajribasini yaratdim."
+      },
+      "work-16": {
+        "name": "Firstify Business System",
+        "type": "Full-Stack Dasturlash",
+        "client": "Ichki Biznes Yechimi",
+        "description": "Firstify - bu React ekotizimining eng so'nggi yutuqlariga (Next.js 16 va React 19) asoslangan korporativ darajadagi biznesni boshqarish tizimi. Men Prisma va PostgreSQL bilan murakkab server mantig'iga ega, TanStack Query va Zustand yordamida yuqori reaktiv frontend bilan birlashtirilgan uzluksiz, oxiridan-oxirigacha tajribani arxitektura qildim. Platforma Radix UI primitivlari va yuqori darajadagi vizual hikoya qilish uchun maxsus GSAP/Framer Motion ketma-ketliklaridan foydalangan holda takomillashtirilgan UI/UXni o'z ichiga oladi. Asosiy xususiyatlarga Better-Auth orqali xavfsiz ko'p rolli autentifikatsiya, Recharts bilan real vaqtda ma'lumotlarni vizualizatsiya qilish va AWS S3 orqali avtomatlashtirilgan bulutli saqlash integratsiyasi kiradi, barchasi mahalliylashtirilgan, turlarga xavfsiz muhitga o'ralgan."
+      },
+      "work-17": {
+        "name": "AeroSound",
+        "type": "Ijodiy Frontend Dasturlash",
+        "client": "Konsept E-tijorat",
+        "description": "Veb-interaktivlik chegaralarini kengaytirish uchun mo'ljallangan yuqori darajadagi, immersiv mahsulot lending sahifasi. Men yuqori samarali poydevor qurish uchun Next.js 16 va Tailwind CSS 4 dan foydalandim, lekin loyihaning asosi murakkab animatsiya orkestrlashda yotadi. Murakkab vaqt shkalasiga asoslangan aylantirish ketma-ketliklari uchun GSAP va organik komponentlarning o'zaro ta'siri uchun Framer Motionni birlashtirib, men silliq 'kinematografik' ko'rish tajribasini yaratdim. Ushbu loyiha harakatga boy saytlar uchun ishlashni optimallashtirish bo'yicha tajribamni va premium brend identifikatorlarini interaktiv raqamli reallikka aylantirish qobiliyatimni ta'kidlaydi."
+      },
+      "work-18": {
+        "name": "Selhono Architecture",
+        "type": "Ijodiy Frontend Dasturlash",
+        "client": "Hashamatli Dizayn Studiyasi",
+        "description": "Arxitektura va interyer dizayni studiyasi uchun murakkab raqamli tajriba. Men tezlikni yo'qotmasdan katta hajmdagi yuqori aniqlikdagi tasvirlarni boshqarishga qodir bo'lgan yuqori samarali poydevor yaratish uchun Next.js 16.1 va Tailwind CSS 4 dan foydalandim. Loyiha brendning jismoniy makonlarining elegantligini aks ettiruvchi murakkab GSAPga asoslangan parallaks effektlari va Framer Motion maket o'tishlariga ega. Zamonaviy frontend naqshlarini amalga oshirish orqali men foydalanuvchilarni hashamatli yashash va tijorat dizayni loyihalari portfoliosti bo'ylab yetaklovchi immersiv, 'jurnal uslubidagi' ko'rish tajribasini yaratishga e'tibor qaratdim."
+      },
+      "work-19": {
+        "name": "Velocity Bike Systems",
+        "type": "Frontend Dasturlash",
+        "client": "Shaxsiy Loyiha",
+        "description": "Global velosiped brendi uchun mo'ljallangan yuqori samarali, ko'p tilli elektron tijorat interfeysi. Next.js 16.1 va Tailwind CSS 4 bilan ishlab chiqilgan platforma silliq tilni almashtirish va mahalliylashtirilgan kontentni yetkazib berishni qo'llab-quvvatlovchi next-intl yordamida to'liq xalqaroallashtirish (i18n) tizimiga ega. Men mahsulotning dinamik tabiatini aks ettiruvchi suyuq, fizikaga asoslangan o'zaro ta'sirlarni yaratish uchun Framer Motionni integratsiya qildim, Lucide-react va Flag-icons esa toza, intuitiv navigatsiya tajribasini ta'minlaydi. Ushbu loyiha kengaytiriluvchan, qulay va global miqyosda xabardor veb-ilovalarni yaratishdagi mahoratimni namoyish etadi."
+      },
+      "work-20": {
+        "name": "Lumina Jewelry Boutique",
+        "type": "Frontend Dasturlash",
+        "client": "Shaxsiy Loyiha",
+        "description": "Minimalist estetika va yuqori darajadagi tipografiyaga e'tibor qaratilgan hashamatli elektron tijorat vitrinasi. Men vizual aniqlik va mahsulot hikoyasini birinchi o'ringa qo'yadigan yashin tezligida ko'rish tajribasini loyihalash uchun Next.js 16 va Tailwind CSS 4 dan foydalandim. Interfeys nozik zargarlik buyumlarining premium tabiatini aks ettiruvchi 'yumshoq teginish' raqamli hissini yaratuvchi maxsus Framer Motion o'tishlari bilan ko'tarilgan. Ushbu loyiha bo'sh joy, panjara tizimlari va nozik harakatlardan foydalanib, yuqori darajadagi mijozlar bilan rezonanslashadigan murakkab brend identifikatorlarini yaratish qobiliyatimni ta'kidlaydi."
+      },
+      "work-21": {
+        "name": "Nexus Agency Landing",
+        "type": "Frontend Dasturlash",
+        "client": "Ijodiy Agentlik Konsepti",
+        "description": "Zamonaviy ijodiy va raqamli agentliklar uchun moslashtirilgan yuqori ta'sirli lending sahifasi. Men sanoatda yetakchi ishlash va SEO optimallashtirishni ta'minlash uchun ushbu loyihani Next.js 16 va Tailwind CSS 4 yordamida loyihalashtirdim. Sayt ko'p qirrali foydalanuvchi tajribasini ta'minlash uchun Next-themes orqali ilg'or GSAP aylantirish bilan ishga tushiriladigan animatsiyalar va silliq qorong'u/yorug' rejimni almashtirishga ega. Modulli komponent arxitekturasini integratsiya qilish orqali men brend obro'sini o'rnatish va lidlarni jalb qilish uchun dadil tipografiyani yuqori aniqlikdagi harakat grafikasi bilan muvozanatlashgan kengaytiriluvchan dizayn tizimini yaratishga e'tibor qaratdim."
+      },
+      "work-22": {
+        "name": "NomadQuest Travel Hub",
+        "type": "Frontend Dasturlash",
+        "client": "Sayohat va Turizm Konsepti",
+        "description": "Zamonaviy sarguzashtchi uchun mo'ljallangan dinamik sayohatni o'rganish platformasi. Next.js 16 va Tailwind CSS 4 bilan qurilgan ilova rc-slider orqali integratsiyalangan narx filtrlash va date-fns bilan mahalliylashtirilgan sanani qayta ishlashga ega intuitiv qidiruv interfeysiga ega. Men immersiv qahramon o'tishlari uchun GSAP va interaktiv band qilish elementlari uchun Framer Motion yordamida jonli foydalanuvchi tajribasini tashkil qildim. Loyiha har qanday qurilmada keyingi sayohatini rejalashtirayotgan foydalanuvchilar uchun uzluksiz tajribani ta'minlaydigan mobil birinchi dizayn va yuqori samarali aktivlarni yuklashga urg'u beradi."
+      },
+      "work-23": {
+        "name": "NestLink SaaS Ecosystem",
+        "type": "Full-Stack Dasturlash",
+        "client": "SaaS Shaxsiy Loyiha",
+        "description": "Kengaytiriluvchan foydalanuvchilarni boshqarish va avtomatlashtirilgan aloqa ish oqimlari uchun mo'ljallangan, Next.js 16 va React 19 bilan qurilgan keng qamrovli SaaS infratuzilmasi. Men Better-Auth yordamida xavfsiz autentifikatsiya tizimini amalga oshirdim va professional foydalanuvchilarni jalb qilish uchun React Email va Nodemailer yordamida tranzaksiya email quvurini loyihalashtirdim. Backend turlarga xavfsiz ma'lumotlar bazasi o'zaro ta'siri uchun Prisma ORM va bulutli aktivlarni boshqarish uchun AWS S3 bilan quvvatlanadi. Premium foydalanuvchi tajribasini ta'minlash uchun men samarali server holatini boshqarish uchun TanStack Queryni integratsiya qildim va Shadcn/UI, GSAP va Framer Motion yordamida yuqori aniqlikdagi UI yaratdim."
+      }
+    }
+  }
+}
