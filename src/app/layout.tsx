@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Outfit, Inter, Syne } from "next/font/google";
 import "@/src/app/globals.css";
-import Navbar from "@/src/components/layout/Navbar";
-import SmoothScroll from "@/src/components/layout/SmoothScroll";
+// Casing fix for Vercel
+import Navbar from "@/src/components/Layout/Navbar";
+import SmoothScroll from "@/src/components/Layout/SmoothScroll";
 import { LanguageProvider } from "@/src/i18n/LanguageProvider";
 
 const outfit = Outfit({
